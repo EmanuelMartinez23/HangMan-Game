@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Horcado</string>
+    <string name="credits">Club de Software\n UAM Lerma\n\n\n Programador: \n Emanuel Martinez Felipe</string>
+</resources>
