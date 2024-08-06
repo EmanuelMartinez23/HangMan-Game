@@ -1,9 +1,11 @@
 package com.uam.horcado
 
 
+import android.os.Build
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.annotation.RequiresApi
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
@@ -24,6 +26,7 @@ import com.uam.horcado.ui.theme.HorcadoTheme
 import com.uam.horcado.viewmodels.HorcadoViewModel
 
 class MainActivity : ComponentActivity() {
+    @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -40,6 +43,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+@RequiresApi(Build.VERSION_CODES.O)
 @Composable
 fun MyApp(navController: NavHostController, horcadoViewModel: HorcadoViewModel) {
     NavHost(

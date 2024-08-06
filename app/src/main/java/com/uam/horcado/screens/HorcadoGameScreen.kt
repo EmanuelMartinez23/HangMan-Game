@@ -42,10 +42,11 @@ fun HorcadoGameScreen(horcadoViewModel: HorcadoViewModel, navController: NavHost
     // Listas de las palabras
     val palabrasList = stringArrayResource(id = R.array.palabras).toList()
     // Obtenemos los datos del viewModel
-    // Indice de la palabra a jugar
+    // Indice de la palabra a jugar, indice va ser de acuerdo al level
     val palabraSecretaIndex = horcadoViewModel.palabraSecretaIndex.value
     // Seleccionamos la palabra de acuerdo a la lista
     val palabraSecreta = palabrasList[palabraSecretaIndex]
+    val level = horcadoViewModel.nivel.value;
 
     var (palabraDescubierta, setPalabraDescubierta) = remember {
         mutableStateOf(
@@ -64,7 +65,6 @@ fun HorcadoGameScreen(horcadoViewModel: HorcadoViewModel, navController: NavHost
     // Lista de letras del abecedario
     val abecedario = listOf('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'Ñ', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z')
     val buttonColors = remember { abecedario.associateWith { mutableStateOf(Color(0xFFE9EBEA)) } }
-    val level = horcadoViewModel.nivel.value;
 
     Column(
         modifier = Modifier
@@ -77,6 +77,15 @@ fun HorcadoGameScreen(horcadoViewModel: HorcadoViewModel, navController: NavHost
             text = "LEVEL $level",
             style = TextStyle(fontFamily = FontFamily(Font(R.font.atma_semibold))),
             fontSize = 45.sp,
+            fontWeight =  FontWeight.W900,
+            color = Color.Black,
+            letterSpacing = 0.sp,
+            modifier =  Modifier.padding(top = 5.dp)
+        )
+        Text(
+            text = "$palabraSecreta",
+            style = TextStyle(fontFamily = FontFamily(Font(R.font.atma_semibold))),
+            fontSize = 8.sp,
             fontWeight =  FontWeight.W900,
             color = Color.Black,
             letterSpacing = 0.sp,
@@ -116,7 +125,7 @@ fun HorcadoGameScreen(horcadoViewModel: HorcadoViewModel, navController: NavHost
                                     // Si la palabra descubierta es igual a la palabra secreta, navegamos a la pantalla de congratulations
                                     if (palabraSecreta == nuevaPalabraDescubierta) {
                                         navController.navigate("congratulations")
-                                        // asignamos el score de este nivel al total del escore
+                                        // asignamos el score de este nivel al total del score
                                         horcadoViewModel.totalScore.value += horcadoViewModel.score.value
                                         // reiniciamos el score del nivel al 600
                                         horcadoViewModel.score.value = 600

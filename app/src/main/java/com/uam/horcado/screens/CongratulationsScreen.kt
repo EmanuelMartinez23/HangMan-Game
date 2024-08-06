@@ -118,10 +118,18 @@ fun CongratulationsScreen(
                         onClick = { /* Regresar a la pagina principal */
                             horcadoViewModel.letrasUsadas.value = mutableListOf<Char>()
                             horcadoViewModel.intentos.value = 6
-                            horcadoViewModel.palabraSecretaIndex.value = HorcadoModel.getRandomWordIndex()
-                            navController.navigate("principal")
                             horcadoViewModel.nivel.value = 1
-
+                            horcadoViewModel.totalScore.value= 0
+                            horcadoViewModel.palabraSecretaIndex.value = HorcadoModel.getRandomWordIndex(horcadoViewModel.nivel.value)
+                            //  regresamos a la pantalla principal
+                            navController.navigate("principal")
+                            {
+                                // aseguramos que la pantalla de congratulations se cierre
+                                popUpTo("congratulations") {
+                                    inclusive = true
+                                }
+                                launchSingleTop = true
+                            }
                                   },
                     ) {
                         Icon(
@@ -134,10 +142,16 @@ fun CongratulationsScreen(
                     IconButton(
                         onClick = { /*Navegar al siguiente nivel */
                             horcadoViewModel.letrasUsadas.value = mutableListOf<Char>()
-                            horcadoViewModel.intentos.value = 6
-                            horcadoViewModel.palabraSecretaIndex.value = HorcadoModel.getRandomWordIndex()
-                            navController.navigate("main")
                             horcadoViewModel.nivel.value += 1
+                            horcadoViewModel.intentos.value = 6
+                            horcadoViewModel.palabraSecretaIndex.value = HorcadoModel.getRandomWordIndex(horcadoViewModel.nivel.value)
+                            // Asegura que nos vamos a main y se elimine la screen de congratulations
+                            navController.navigate("main"){
+                                popUpTo("congratulations") {
+                                    inclusive = true
+                                }
+                                launchSingleTop = true
+                            }
 
                         },
 

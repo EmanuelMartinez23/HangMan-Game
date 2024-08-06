@@ -131,10 +131,12 @@ fun GameOverScreen(horcadoViewModel: HorcadoViewModel, navController: NavHostCon
                     IconButton(
                         onClick = { /* Regresar a la pagina principal */
                             horcadoViewModel.letrasUsadas.value = mutableListOf<Char>()
-                            horcadoViewModel.intentos.value = 6
-                            horcadoViewModel.palabraSecretaIndex.value = HorcadoModel.getRandomWordIndex()
-                            navController.navigate("principal")
                             horcadoViewModel.nivel.value = 1
+                            horcadoViewModel.intentos.value = 6
+//                            horcadoViewModel.score.value= 0 //
+                            horcadoViewModel.totalScore.value = 0 //
+                            horcadoViewModel.palabraSecretaIndex.value = HorcadoModel.getRandomWordIndex(horcadoViewModel.nivel.value)
+                            navController.navigate("principal")
 
                         },
                     ) {
@@ -146,12 +148,12 @@ fun GameOverScreen(horcadoViewModel: HorcadoViewModel, navController: NavHostCon
                         )
                     }
                     IconButton(
-                        onClick = { /*Navegar al siguiente nivel */
+                        onClick = { /*Navegar a la screen de inicio */
                             horcadoViewModel.letrasUsadas.value = mutableListOf<Char>()
                             horcadoViewModel.intentos.value = 6
-                            horcadoViewModel.palabraSecretaIndex.value = HorcadoModel.getRandomWordIndex()
-                            navController.navigate("principal")
                             horcadoViewModel.nivel.value = 1
+                            horcadoViewModel.palabraSecretaIndex.value = HorcadoModel.getRandomWordIndex(horcadoViewModel.nivel.value)
+                            navController.navigate("principal")
                             horcadoViewModel.totalScore.value = 0
 
                         },
@@ -159,7 +161,7 @@ fun GameOverScreen(horcadoViewModel: HorcadoViewModel, navController: NavHostCon
                         ) {
                         Icon(
                             painter = painterResource(id = R.drawable.home), // Aquí utilizas el recurso de imagen del icono
-                            contentDescription = "Icono para avanzar el siguiente nivel",
+                            contentDescription = "Icono para regresar a la página de inicio",
                             modifier = Modifier.height(50.dp).width(50.dp).padding(end = 12.dp),
                             tint = Color.Black
                         )

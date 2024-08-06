@@ -1,99 +1,175 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="palabras">
-        <item>ORDENADOR</item>
-        <item>PROGRAMACION</item>
-        <item>JUEGO</item>
-        <item>TECNOLOGIA</item>
-        <item>INTERNET</item>
-        <item>DESARROLLO</item>
-        <item>APLICACION</item>
-        <item>SOFTWARE</item>
-        <item>HARDWARE</item>
-        <item>SEGURIDAD</item>
-        <item>ALGORITMO</item>
-        <item>BASEDEDATOS</item>
-        <item>PROGRAMADOR</item>
-        <item>APRENDIZAJE</item>
-        <item>DISPOSITIVO</item>
-        <item>COMPUTACION</item>
-        <item>INTERFAZ</item>
-        <item>ELECTRONICA</item>
-        <item>INNOVACION</item>
-        <item>INTELIGENCIA</item>
-        <item>INVESTIGACION</item>
-        <item>COMUNICACION</item>
-        <item>CODIFICACION</item>
-        <item>TECNOLOGICO</item>
-        <item>EFICIENCIA</item>
-        <item>REALIDAD</item>
+        <!--Palabras para los niveles 1 y 2, tamaño 6  -->
+        <item>JUEGOS</item> <!-- 0 -->
         <item>VIRTUAL</item>
-        <item>SENSORES</item>
-        <item>RENDIMIENTO</item>
-        <item>ALMACENAMIENTO</item>
-        <item>OPTIMIZACION</item>
-        <item>CREATIVIDAD</item>
-        <item>DESAFIO</item>
-        <item>EXPERIMENTACION</item>
-        <item>CONEXION</item>
-        <item>REDES</item>
-        <item>INFRAESTRUCTURA</item>
+        <item>ALERTA</item>
+        <item>PLUMA</item>
+        <item>CLAVO</item>
+        <item>CHICLE</item>
+        <item>TRUENO</item>
+        <item>FLECHA</item>
+        <item>DISEÑO</item>
+        <item>MUÑECA</item>
+        <item>CABAÑA</item>
+        <item>SEÑORA</item>
+        <item>MAÑOSO</item>
+        <item>HOMBRE</item>
+        <item>HIEDRA</item>
+        <item>HUERTO</item>
+        <item>ENSAYO</item>
+        <item>ESPOSO</item>
+        <item>ESPAÑA</item>
+        <item>ESFERA</item>
+        <item>ALTURA</item> <!-- 20 -->
+        <!--Palabras para los niveles 3 y 4, tamaño 7  -->
+        <item>DESAFIO</item> <!-- 21 -->
+        <item>GESTION</item>
         <item>INNOVAR</item>
         <item>APLICAR</item>
-        <item>SISTEMAS</item>
-        <item>SIMULACION</item>
-        <item>PROTOTIPO</item>
-        <item>PROCESADOR</item>
-        <item>PROYECTO</item>
-        <item>ROBOTICA</item>
-        <item>MAQUINAS</item>
-        <item>MICROPROCESADOR</item>
-        <item>INTEGRACION</item>
-        <item>EFECTIVIDAD</item>
-        <item>ELECTRICIDAD</item>
-        <item>MECATRONICA</item>
-        <item>INGENIERIA</item>
-        <item>DOMOTICA</item>
-        <item>ALERTA</item>
-        <item>MONITOREO</item>
-        <item>PREVENCION</item>
-        <item>PROTECCION</item>
-        <item>INFORMACION</item>
-        <item>GESTION</item>
-        <item>INTELIGENTE</item>
-        <item>COLABORACION</item>
-        <item>COOPERACION</item>
-        <item>AVANZADO</item>
-        <item>AVANCE</item>
-        <item>INTERACCION</item>
-        <item>ADAPTACION</item>
-        <item>SOLUCION</item>
-        <item>IDENTIFICACION</item>
-        <item>REGISTRO</item>
-        <item>SEGURIZACION</item>
-        <item>AUTENTICACION</item>
-        <item>AUTORIZACION</item>
-        <item>ACCESIBILIDAD</item>
-        <item>TRANSMISION</item>
-        <item>RECEPTOR</item>
-        <item>EMISOR</item>
-        <item>SEÑAL</item>
         <item>CONTROL</item>
-        <item>DETECCION</item>
-        <item>ALERTA</item>
-        <item>ALERTAR</item>
-        <item>ALERTADO</item>
-        <item>PRECAUCION</item>
-        <item>PRECAUCIONAR</item>
-        <item>PRECAUCIONADO</item>
-        <item>PREVENIR</item>
-        <item>PREVENCIÓN</item>
-        <item>PREVENIDO</item>
-        <item>PROTECCION</item>
-        <item>PROTECCIONAR</item>
-        <item>PROTEGIDO</item>
         <item>GUARDAR</item>
+        <item>PARTIDO</item>
+        <item>CUMPLIR</item>
+        <item>OFRECER</item>
+        <item>HERMOSA</item>
+        <item>CALIDAD</item>
+        <item>SUBLIME</item>
+        <item>MENSAJE</item>
+        <item>SEÑALAR</item>
+        <item>ASISTIR</item>
+        <item>DETALLE</item>
+        <item>DELGADO</item>
+        <item>URGENTE</item>
+        <item>CURIOSO</item>
+        <item>RACISMO</item>
+        <item>MAESTRO</item> <!-- 41 -->
+        <!--Palabras para los niveles 5 y 6, tamaño 8  -->
+        <item>SOFTWARE</item> <!-- 42 -->
+        <item>HARDWARE</item>
+        <item>PROYECTO</item>
+        <item>ALGORITMO</item>
+        <item>AVANZADO</item>
+        <item>INTERFAZ</item>
+        <item>PREVENIR</item>
+        <item>REALIDAD</item>
+        <item>ROBOTICA</item>
+        <item>SENSORES</item>
+        <item>MAQUINAS</item>
+        <item>RECEPTOR</item>
         <item>GUARDADO</item>
+        <item>REGISTRO</item>
+        <item>SISTEMAS</item>
+        <item>DOMOTICA</item>
+        <item>CAFETERA</item>
+        <item>CALABAZA</item>
+        <item>ESCALERA</item>
+        <item>DELANTAL</item>
+        <item>SOMBRERO</item> <!-- 62-->
+        <!--Palabras para los niveles 7 y 8, tamaño 9  -->
+        <item>SEGURIDAD</item><!-- 63-->
+        <item>PROTOTIPO</item>
+        <item>RELAMPAGO</item>
+        <item>ALMOHADAS</item>
+        <item>ELEFANTES</item>
+        <item>AVENTURAS</item>
+        <item>CANGREJOS</item>
+        <item>ESCULTURA</item>
+        <item>CONCIERTO</item>
+        <item>DISTANCIA</item>
+        <item>INDUSTRIA</item>
+        <item>PRESENCIA</item>
+        <item>ETIQUETAS</item>
+        <item>PACIENTES</item>
+        <item>SERVICIOS</item>
+        <item>PLANTILLA</item>
+        <item>INTERESES</item>
+        <item>SIGUIENTE</item>
+        <item>PROGRAMAS</item>
+        <item>PRESENTAR</item>
+        <item>PLANTILLA</item> <!--83 -->
+        <!--Palabras para los niveles 9 y 10, tamaño 10  -->
+        <item>LITERATURA</item> <!--84 -->
+        <item>NATURALEZA</item>
+        <item>GOLONDRINA</item>
+        <item>VACACIONES</item>
+        <item>ADIVINANZA</item>
+        <item>ARQUITECTO</item>
+        <item>HABITUALES</item>
+        <item>ABUNDANCIA</item>
+        <item>AMORTIGUAR</item>
+        <item>ALTERNADOR</item>
+        <item>DESCONOCEN</item>
+        <item>ESTUDIANTE</item>
+        <item>EXAMINADOR</item>
+        <item>FUNDAMENTO</item>
+        <item>ALUCINANTE</item>
+        <item>HABITUALES</item>
+        <item>GENERADORA</item>
+        <item>ENFOCARNOS</item>
+        <item>OBSERVADOR</item>
+        <item>NECESITADO</item>
+        <item>NEGOCIADOR</item>
+        <item>BENEFICIOS</item>
+        <item>CALIFICADO</item>
+        <item>CIRCULARES</item>
+        <item>COLOMBIANO</item>
+        <item>COMPLICADA</item>
+        <item>DIFICULTAD</item>
+        <item>ENFERMEDAD</item>
+        <item>MULTITAREA</item>
+        <item>PERSEVERAR</item>
+        <item>PLANIFICAR</item>
+        <item>RECONOCIDO</item> <!--115 -->
+        <!--Palabras para los niveles despues del 10, tamaño más de 10  -->
+        <item>ADICIONALES</item><!--116 -->
+        <item>APARIENCIA</item>
+        <item>CRECIMIENTO</item>
+        <item>DESPILFARRAR</item>
+        <item>ESCALADORES</item>
+        <item>FUNDAMENTAL</item>
+        <item>INSPIRACION</item>
+        <item>INTERACTIVO</item>
+        <item>JUSTIFICADO</item>
+        <item>MATERIALIZAR</item>
+        <item>SISTEMATICO</item>
+        <item>VIRTUALIDAD</item>
+        <item>ABASTECIMIENTO</item>
+        <item>ACERCAMIENTO</item>
+        <item>ADAPTABILIDAD</item>
+        <item>ARQUITECTURA</item>
+        <item>CONFECCIONAR</item>
+        <item>CONTAMINANTE</item>
+        <item>CONVENCIONAL</item>
+        <item>CRECIMIENTO</item>
+        <item>DISTRIBUIDOR</item>
+        <item>EFECTIVIDAD</item>
+        <item>ENCICLOPEDIA</item>
+        <item>ENTRENAMIENTO</item>
+        <item>ESTIMULANTE</item>
+        <item>EXPERIENCIA</item>
+        <item>HABILIDADES</item>
+        <item>IMAGINATIVO</item>
+        <item>INNOVADORAS</item>
+        <item>INTELECTUAL</item>
+        <item>INTERESANTE</item>
+        <item>INTERMITENTE</item>
+        <item>INVESTIGADO</item>
+        <item>INVOLUCRADO</item>
+        <item>INSTITUCIONES</item>
+        <item>JURISDICCION</item>
+        <item>ORGANIZADOS</item>
+        <item>PARTICIPANTE</item>
+        <item>RECONOCIMIENTO</item>
+        <item>RESTAURANTES</item>
+        <item>REVOLUCIONARIO</item>
+        <item>SELECCIONADO</item>
+        <item>SUPERVISADOS</item>
+        <item>TRADICIONAL</item>
+        <item>TRANSFORMADO</item>
+        <item>VOLUNTARIOS</item>
+        <item>VULNERABLES</item>
     </string-array>
 
 </resources>
