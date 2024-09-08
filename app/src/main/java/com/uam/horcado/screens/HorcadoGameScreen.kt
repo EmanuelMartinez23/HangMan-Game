@@ -82,15 +82,7 @@ fun HorcadoGameScreen(horcadoViewModel: HorcadoViewModel, navController: NavHost
             letterSpacing = 0.sp,
             modifier =  Modifier.padding(top = 5.dp)
         )
-        Text(
-            text = "$palabraSecreta",
-            style = TextStyle(fontFamily = FontFamily(Font(R.font.atma_semibold))),
-            fontSize = 8.sp,
-            fontWeight =  FontWeight.W900,
-            color = Color.Black,
-            letterSpacing = 0.sp,
-            modifier =  Modifier.padding(top = 5.dp)
-        )
+        
 
         Image(
             painter = painterResource(R.drawable.game),

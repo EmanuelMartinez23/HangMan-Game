@@ -9,8 +9,6 @@ import com.uam.horcado.model.HorcadoModel
 Clase para almacenar y gestionar datos relacionado con la ui
  */
 class HorcadoViewModel : ViewModel() {
-
-
     // Guarda el estado de la palabra descubierta
     val palabraDescubierta = mutableStateOf("")
     // Estado de los intentos de cada ronda

@@ -11,6 +11,8 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.rounded.ArrowBack
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.Text
@@ -53,7 +55,7 @@ fun scoresScreen(horcadoViewModel: HorcadoViewModel , navController: NavHostCont
                 },
             ) {
                 Icon(
-                    painter = painterResource(id = R.drawable.back), // Aquí utilizas el recurso de imagen del icono
+                    Icons.Rounded.ArrowBack, // Aquí utilizas el recurso de imagen del icono
                     contentDescription = "Icono para regresar a la pagina principal",
                     modifier = Modifier
                         .height(250.dp)

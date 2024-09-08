@@ -10,7 +10,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
@@ -32,8 +31,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             HorcadoTheme {
                 Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = Color(0xFFFFFFFF)
+                    modifier = Modifier.fillMaxSize()
                 ) {
                     val horcadoViewModel: HorcadoViewModel = viewModel()
                     val navController = rememberNavController()
