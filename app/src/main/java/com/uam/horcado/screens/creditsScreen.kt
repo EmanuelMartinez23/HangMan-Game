@@ -73,6 +73,7 @@ fun creditsScreen( navController: NavHostController) {
                 text = stringResource(id = R.string.credits),
                 style = TextStyle(fontFamily = FontFamily(Font(R.font.indieflower_regular))),
                 fontSize = 25.sp,
+                color = Color.Black,
                 fontWeight = FontWeight.SemiBold,
                 modifier = Modifier.padding(30.dp),
                 textAlign = TextAlign.Center
