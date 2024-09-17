@@ -17,6 +17,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.outlined.Home
 import androidx.compose.material.icons.rounded.Home
 import androidx.compose.material.icons.rounded.Refresh
 import androidx.compose.material3.Card
@@ -63,7 +64,7 @@ fun GameOverScreen(horcadoViewModel: HorcadoViewModel, navController: NavHostCon
 */
     Box(modifier = Modifier.fillMaxSize()) {
         Image(
-            painter = painterResource(id = R.drawable.pantallafondogameover),
+            painter = painterResource(id = R.drawable.fondo),
             contentDescription = null,
             modifier = Modifier.fillMaxSize(),
             contentScale = ContentScale.FillBounds
@@ -169,14 +170,14 @@ fun GameOverScreen(horcadoViewModel: HorcadoViewModel, navController: NavHostCon
                                     ) {
 
                                     Icon(
-                                        Icons.Rounded.Home,
+                                        Icons.Outlined.Home,
                                         contentDescription =null,
                                         tint =Color.Black,
                                         modifier =Modifier.size(100.dp))
                                 }
                             }
                         }
-                    }
+                    }// box 2
 
 
                 } //card
