@@ -1,4 +1,4 @@
-package com.uam.horcado
+package com.uam.hangman
 
 
 import android.os.Build
@@ -15,14 +15,14 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.uam.horcado.screens.CongratulationsScreen
-import com.uam.horcado.screens.GameOverScreen
-import com.uam.horcado.screens.HorcadoGameScreen
-import com.uam.horcado.screens.creditsScreen
-import com.uam.horcado.screens.mainScreen
-import com.uam.horcado.screens.scoresScreen
-import com.uam.horcado.ui.theme.HorcadoTheme
-import com.uam.horcado.viewmodels.HorcadoViewModel
+import com.uam.hangman.screens.CongratulationsScreen
+import com.uam.hangman.screens.GameOverScreen
+import com.uam.hangman.screens.HorcadoGameScreen
+import com.uam.hangman.screens.creditsScreen
+import com.uam.hangman.screens.mainScreen
+import com.uam.hangman.screens.scoresScreen
+import com.uam.hangman.ui.theme.HorcadoTheme
+import com.uam.hangman.viewmodels.HorcadoViewModel
 
 class MainActivity : ComponentActivity() {
     @RequiresApi(Build.VERSION_CODES.O)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Horcado</string>
+    <string name="app_name">Hangman</string>
     <string name="credits">Club de Software\n UAM Lerma\n\n\n Desarrollador: \n Emanuel Martinez Felipe\n\n\n Diseñador: \n Martin Enrique Morales Trinidad</string>
 </resources>

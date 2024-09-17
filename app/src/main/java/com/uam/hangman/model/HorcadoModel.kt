@@ -1,4 +1,4 @@
-package com.uam.horcado.model
+package com.uam.hangman.model
 
 // Contiene la lógica del modelo para el juego del ahorcado
 // el model es el encargado de manegar los datos y la lógica del negocio de la app

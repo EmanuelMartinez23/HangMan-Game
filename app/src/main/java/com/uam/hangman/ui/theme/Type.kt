@@ -1,4 +1,4 @@
-package com.uam.horcado.ui.theme
+package com.uam.hangman.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
@@ -6,7 +6,7 @@ import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import com.uam.horcado.R
+import com.uam.hangman.R
 // atma
 private val light = Font(R.font.atma_light, FontWeight.W300)
 private val regular = Font(R.font.atma_regular, FontWeight.W400)

@@ -1,4 +1,4 @@
-package com.uam.horcado.ui.theme
+package com.uam.hangman.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

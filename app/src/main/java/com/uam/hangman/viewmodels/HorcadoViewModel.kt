@@ -1,9 +1,9 @@
-package com.uam.horcado.viewmodels
+package com.uam.hangman.viewmodels
 
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
-import com.uam.horcado.model.HorcadoModel
+import com.uam.hangman.model.HorcadoModel
 
 /*
 Clase para almacenar y gestionar datos relacionado con la ui

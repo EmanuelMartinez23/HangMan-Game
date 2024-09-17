@@ -1,4 +1,4 @@
-package com.uam.horcado.screens
+package com.uam.hangman.screens
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.tween
@@ -19,7 +19,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.uam.horcado.ui.theme.HorcadoTheme
+import com.uam.hangman.ui.theme.HorcadoTheme
 
 @Composable
 fun anima(){

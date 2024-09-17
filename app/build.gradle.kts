@@ -4,11 +4,12 @@ plugins {
 }
 
 android {
-    namespace = "com.uam.horcado"
+//    namespace = "com.uam.horcado"
+    namespace = "com.uam.hangman"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.uam.horcado"
+        applicationId = "com.uam.hangman"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

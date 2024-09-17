@@ -1,4 +1,4 @@
-package com.uam.horcado.screens
+package com.uam.hangman.screens
 
 
 
@@ -31,9 +31,9 @@ import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import com.uam.horcado.R
-import com.uam.horcado.ui.theme.HorcadoTheme
-import com.uam.horcado.viewmodels.HorcadoViewModel
+import com.uam.hangman.R
+import com.uam.hangman.ui.theme.HorcadoTheme
+import com.uam.hangman.viewmodels.HorcadoViewModel
 
 // HorcadoViewModel contiene el estado y la logica relacionada con el juego
 @Composable

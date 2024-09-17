@@ -1,9 +1,8 @@
-package com.uam.horcado.screens
+package com.uam.hangman.screens
 
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -18,7 +17,6 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.Home
-import androidx.compose.material.icons.rounded.Home
 import androidx.compose.material.icons.rounded.Refresh
 import androidx.compose.material3.Card
 import androidx.compose.material3.Icon
@@ -40,9 +38,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import androidx.navigation.NavHostController
-import com.uam.horcado.R
-import com.uam.horcado.model.HorcadoModel
-import com.uam.horcado.viewmodels.HorcadoViewModel
+import com.uam.hangman.R
+import com.uam.hangman.model.HorcadoModel
+import com.uam.hangman.viewmodels.HorcadoViewModel
 
 // HorcadoViewModel contiene el estado y la logica relacionada con el juego
 

@@ -1,4 +1,4 @@
-package com.uam.horcado
+package com.uam.hangman
 
 import org.junit.Test
 
