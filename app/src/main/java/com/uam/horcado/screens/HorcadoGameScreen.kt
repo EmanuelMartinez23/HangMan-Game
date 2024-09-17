@@ -84,12 +84,7 @@ fun HorcadoGameScreen(horcadoViewModel: HorcadoViewModel, navController: NavHost
         )
         
 
-        Image(
-            painter = painterResource(R.drawable.game),
-            contentDescription = null,
-            modifier = Modifier.size(200.dp)
-        )
-        Text(text = palabraDescubierta, fontSize = 28.sp, color =Color.Black)
+//         Text(text = palabraDescubierta, fontSize = 28.sp, color =Color.Black)
         Spacer(modifier = Modifier.height(12.dp))
         // Botones de letras del abecedario
 
